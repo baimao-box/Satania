@@ -1,28 +1,42 @@
-# satania v1.0
+# satania v1.1
+
 个人开发和使用的工具，可以大幅度缩短渗透测试信息收集的时间和精力
 
-![1](https://user-images.githubusercontent.com/52622597/175946316-2badeec8-500a-472c-acf6-4f5c5117a2b3.png)
+## 安装
 
-输入目标ip后，工具将自动扫描目标主机开放的服务和端口
+```
+chmod 777 setup.py
+python3 setup.py
+```
+## 使用
 
-![2](https://user-images.githubusercontent.com/52622597/175946533-930564f2-a419-43d4-bbde-8e88dea12b1f.png)
+直接运行satania即可
+
+![image](https://user-images.githubusercontent.com/52622597/176213179-35fbd93b-cd87-4101-8425-15cbb430c969.png)
+
+可以直接next进入模块选择界面，或者输入目标ip后，工具将自动扫描目标主机开放的服务和端口
+
+![image](https://user-images.githubusercontent.com/52622597/176213350-07936fbd-ca0a-4a72-8393-4f784a6cd18b.png)
+
 
 扫描完成后会提供信息收集模块选项
 
-![3](https://user-images.githubusercontent.com/52622597/175946627-ad2be6fd-d212-434b-b455-241fb66162aa.png)
+![image](https://user-images.githubusercontent.com/52622597/176213468-7f77df5e-a77a-4230-9219-8dc358a41ea5.png)
 
-### 1.网站根目录枚举
-### 2.网站子域名枚举
-### 3.网站框架枚举
-### 4.smb枚举
-### 5.匿名登录smb
-### 6.nfs枚举
-### 7.本地挂载nfs
-### 8.更改目标ip地址
-### 9.Searchsploit
-### 10.退出
+### 1.nmap枚举
+### 2.nmap常规漏洞探测
+### 3.内网存活主机探测
+### 4.网站根目录枚举
+### 5.网站子域名枚举
+### 6.网站中间件漏洞探测
+### 7.smb枚举
+### 8.匿名登录smb
+### 9.nfs枚举
+### 10.本地挂载nfs
+### 11.更改目标ip地址
+### 12.Searchsploit
+### 13.退出
 
 在工具的使用期间，还是可以执行正常的linux命令
-
 
 ![4](https://user-images.githubusercontent.com/52622597/175947512-342c2a03-e54c-4d9d-99c4-b8b3c453053e.png)
