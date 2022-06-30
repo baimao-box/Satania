@@ -20,11 +20,8 @@ except:
 	s = 0
 	
 if(s == 1):
-	start = 0
-	frequency = 0
-	while start == frequency:
-		mkdir()
-		os.system("sudo mv satania.py /home/satania/satania.py")
+	mkdir()
+	os.system("sudo mv satania.py /home/satania/satania.py")
 	a = os.path.exists("/usr/bin/satania")
 	if(a == True):
 		os.system("sudo rm -rf /usr/bin/satania")
