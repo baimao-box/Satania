@@ -35,8 +35,7 @@ if(s == 1):
 			os.system("sudo git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb")
 			os.system("sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit")
 			print("\033[1;31;40mInstallation succeeded\033[0m")
-		else:
-			start = start + 1
+		
 	
 	
 	
