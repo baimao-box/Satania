@@ -131,7 +131,7 @@ def msfvenom():
 				print("\033[1;31;40mLHOST: \033[0m" + lhost)
 				print("\033[1;31;40mLPORT: \033[0m" + lport)
 				print("")
-				print("\033[1;31;40m########## Msfvenom Generate Shellcode ##########\033[0m")
+				print("\033[1;33;40m########## Msfvenom Generate Shellcode ##########\033[0m")
 				print("1.aspx shellcode")
 				print("2.php shellcode")
 				print("3.exe shellcode" + "(M)")
@@ -222,7 +222,7 @@ while start == frequency:
 			while start5 == frequency5:
 				try:
 					print("")
-					print("\033[1;31;40m########## Nmap Intranet Scanning ##########\033[0m")
+					print("\033[1;33;40m########## Nmap Intranet Scanning ##########\033[0m")
 					print("1.192.168.0.1/24")
 					print("2.192.168.1.0/24")
 					print("3.172.16.0.1/16")
