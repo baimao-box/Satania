@@ -70,3 +70,8 @@ chmod 777 setup.py
 在执行命令期间，还是可以正常运行linux命令
 
 ![image](https://user-images.githubusercontent.com/52622597/177001668-b60fecb1-6a37-4942-9f8a-db8d57862082.png)
+
+详细介绍文章地址：
+```
+https://blog.csdn.net/qq_45894840/article/details/125578975?spm=1001.2014.3001.5502
+```
