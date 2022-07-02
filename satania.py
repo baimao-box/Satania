@@ -257,6 +257,7 @@ while start == frequency:
 						os.system(ra)
 				except:
 					print("\nPlease enter `back` to return")
+			menu()
 				
 		elif(number == num4):
 			os.system("ffuf -w /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt -t 100 -mc 200,302,301 -u http://{}/FUZZ".format(rhost))
@@ -351,6 +352,7 @@ while start == frequency:
 			print("Please enter a folder to connect to")
 			folder = input("\033[1;31;40mSMB Connection Specified folder@folder >\033[0m ")
 			os.system("smbclient -U {} ".format(username)+"//".format(rhost)+"/{}".format(folder))
+			menu()
 		
 		elif(number == num12):
 			os.system("nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount {}".format(rhost))
@@ -379,9 +381,11 @@ while start == frequency:
 									os.system("mount {}".format(rhost) + ":/{} ".format(mount1) + "/{}".format(mount2))
 				except:
 					print("\nPlease enter `back` to return")
+			menu()
 					
 		elif(number == num14):
 			msfvenom()
+			menu()
 		
 		elif(number == num15):
 			url = input("\033[1;31;40mAccess Shellcode@Please enter a full link to the website shellcode >\033[0m ")
