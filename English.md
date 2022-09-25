@@ -25,17 +25,21 @@ chmod 777 setup.py
 python3 setup.py
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/cbc5ca0af70849148ae26e0f0b1b6ee1.png)
+
 You need to wait a few minutes, during which you need to manually select something, the default is OK
 
 
 After the installation is complete, you will be prompted whether to install the searchsploit tool. This tool is very large, so ask here, if the network is good, you can install it
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/b69dcf649bca4ef29ad784eae002f013.png)
 
 Then directly enter satania to run the tool
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/c8c501407b4a4a59b1b725c7bf8bd3db.png)
+
 # Tool module introduction
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/045bb8d8ff8047c1bb55ecf3b96ed6a5.png)
+
 ## nmap enumeration
 ```
 1. nmap enumeration
@@ -90,6 +94,7 @@ Then directly enter satania to run the tool
 During the execution of the command, the linux command can still be run normally
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/a8fcf0ca92044ba6be2fc4b7a6115a17.png)
+
 # Some demos of this update
 ```
 Updates are as follows:
@@ -101,10 +106,13 @@ Added WPScan tool
 ```
 
 Use the wpscan enumeration module to perform default vulnerability scans
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/1b214ced6f67454bb0d45d0236fce992.png)
+
 Here you will be asked to enter the api token
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/1e724249717f43d3a1f4e4bc43d2e6a0.png)
+
 
 When we usually use wpscan, we need to enter the api token for each scan. Using this tool, you can store your api token, and then you don't need to enter it for calls.
 
@@ -123,5 +131,6 @@ The tool will enter the file name, the address where it is stored, and the paylo
 This update puts the executed linux command below
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/f3cf08cd5dd34734b51c0d129c769707.png)
+
 Keep updating every week
 
