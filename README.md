@@ -62,7 +62,7 @@ python3 setup.py
 11. smb指定用户名登录
 ```
 
-## MFS枚举
+## NFS枚举
 ```
 12. nfs扫描
 13. nfs本地挂载
