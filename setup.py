@@ -21,7 +21,7 @@ except:
 	
 if(s == 1):
 	mkdir()
-	os.system("sudo mv satania.py /home/satania/satania.py")
+	os.system("sudo cp satania.py /home/satania/satania.py")
 	a = os.path.exists("/usr/bin/satania")
 	if(a == True):
 		os.system("sudo rm -rf /usr/bin/satania")
