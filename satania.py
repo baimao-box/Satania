@@ -4,7 +4,7 @@ import time
 import sys
 import os
 import readline
-#import tab
+
 
 a = os.path.exists("/home/satania/satania.py")
 
