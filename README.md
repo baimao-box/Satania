@@ -1,4 +1,6 @@
 # Satania v1.2
+### [English](https://github.com/baimao-box/satania/blob/main/English.md)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/18ab2eae3e0e4bfc86417229e147b914.png)
 
 
@@ -36,53 +38,53 @@ python3 setup.py
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/045bb8d8ff8047c1bb55ecf3b96ed6a5.png)
 ## nmap枚举
 ```
-1.nmap枚举
-2.nmap常规漏洞扫描
-3.nmap内网存活主机探测
+1. nmap枚举
+2. nmap常规漏洞扫描
+3. nmap内网存活主机探测
 ```
 
 ## 网站枚举
 ```
-4.网站根目录文件扫描
-5.网站子域名枚举
-6.网站框架枚举
-7.wpscan枚举
-	1.WPScan漏洞扫描
-	2.WPScan用户名枚举
-	3.WPScan账号爆破
+4. 网站根目录文件扫描
+5. 网站子域名枚举
+6. 网站框架枚举
+7. wpscan枚举
+	1. WPScan漏洞扫描
+	2. WPScan用户名枚举
+	3. WPScan账号爆破
 ```
 
 ## smb枚举
 ```
-8.smb共享目录枚举
-9.匿名登录
-10.smb指定文件夹登录
-11.smb指定用户名登录
+8. smb共享目录枚举
+9. 匿名登录
+10. smb指定文件夹登录
+11. smb指定用户名登录
 ```
 
 ## MFS枚举
 ```
-12.nfs扫描
-13.nfs本地挂载
+12. nfs扫描
+13. nfs本地挂载
 ```
 
 ## shellcode
 ```
-14.msfvenom生成shellcode
-	1.aspx的shellcode
-	2.php的shellcode
-	3.exe的shellcode
-	4.netcat监听
-	5.更改设置的本地ip和端口
-15.连接上传的shellcode
+14. msfvenom生成shellcode
+	1. aspx的shellcode
+	2. php的shellcode
+	3. exe的shellcode
+	4. netcat监听
+	5. 更改设置的本地ip和端口
+15. 连接上传的shellcode
 ```
 
 ## 其他
 ```
-16.更改目标ip
-17.searchsploit
-18.重新获取本机IP
-19.退出
+16. 更改目标ip
+17. searchsploit
+18. 重新获取本机IP
+19. 退出
 ```
 
 在执行命令期间，还是可以正常运行linux命令
